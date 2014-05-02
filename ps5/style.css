@@ -1,0 +1,221 @@
+@CHARSET "ISO-8859-1";
+html 
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+	background-color: black;
+	margin: 0;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active, 
+.ui-autocomplete, .ui-menu-item,
+.ui-widget-content .ui-widget-header,
+.ui-state-focus
+{
+	background: #ffffff none no-repeat; 
+	padding:0;
+	margin:0;
+	display:block;
+	border:0;border-collapse:collapse;
+}
+
+.administration
+{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#header
+{
+	background-color: #63B8FF;
+}
+
+#apply
+{
+	float: right;
+}
+
+#userName
+{
+	padding-left: 2px;
+	padding-right: 15px;
+	color: #00B2EE;
+	float:  center;
+}
+
+.link
+{
+	padding-right: 15px;
+}
+
+.link a:hover
+{
+	background: #00BFFF;
+}
+
+.ui-state-focus, .ui-autocomplete li:hover
+{
+	color: white;
+	background: #6699CC;
+	outline: none;
+}
+
+.ui-helper-hidden-accessible
+{
+	display: none;
+}
+
+#wait
+{
+	color: grey;
+	font-weight: bold;
+}
+
+.resname
+{
+	color: red;
+	font-size: medium !important;
+	font-weight: bold;
+}
+
+#italics
+{
+	color: #999966;
+}
+
+.errMessage
+{
+	color: red;
+}
+
+h1
+{
+	color: slategrey;
+}
+
+h3
+{
+	padding-left: 2px;
+	background-color: burlywood;
+}
+
+.resume
+{
+	width: 100%;
+}
+
+.details
+{
+	width: 75%;
+}
+
+.saved
+{
+	color: green;
+}
+
+#page 
+{
+	background: url(images/bg-page.jpg) repeat-y left top;
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#navigation
+{
+	float: left;
+	height: 100%;
+	width: 260px;
+	padding-left: 5px;
+	padding-top: 50px;
+}
+
+#form 
+{
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+
+#navigation a 
+{
+	color: #ebebeb;
+	text-decoration: none;
+}
+
+#navigation h1
+{
+	font-size: 24;
+	padding-bottom:50px;
+}
+
+#navigation ul
+{
+	list-style-type: none;
+	margin: 0 0 60px;
+	padding: 0;	
+	text-align: left;
+}
+
+#navBar li 
+{
+	font-size: 19px;
+	line-height: 35px;
+}
+
+#navBar li a 
+{
+	display: block;
+	width: 259px;
+	text-transform: uppercase;
+}
+
+textarea
+{
+	resize: none;
+}
+
+#navBar li.selected a, #navigation li a:hover 
+{
+	background: url(images/bg-page.jpg) no-repeat 190px center;
+}
+
+#body
+{
+ 	min-height: 550px; 
+	height: 100%;
+	width: 690px;
+	margin: 0 0 0 264px;
+	padding-top: 60px;
+}
+
+#body div 
+{
+	width: 612px;
+	margin: 0 auto;
+	padding: 0 0 20px;
+}
+
+#navigation li 
+{
+	font-size: 12px;
+	line-height: 35px;
+}
+
+#navigation li a 
+{
+	display: block;
+	width: 259px;
+	text-transform: uppercase;
+}
+
+#navBar li.selected a, #navBar li a:hover
+{
+	background: url(images/bg-body.jpg) no-repeat;
+	color: black;
+}

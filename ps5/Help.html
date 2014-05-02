@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+	<!--
+	Author: Ramijul Islam
+	
+	-->
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css"/> <!-- css -->
+		
+		<title>Resume Builder</title>
+	</head>
+	<body>
+	<div id="page">
+		<div id="navigation">
+			<h1>Resume Builder</h1>
+			
+			<ul id="navBar">
+				<li><a href="index.php">Contact Information</a></li>
+				<li><a href="position.php">Position Sought</a></li>
+				<li><a href="employment.php">Employment History</a></li>
+				<li><a href="resume.php">Resume</a></li>
+				<li><a href="archive.php">Archive</a></li>				
+				<li class="selected"><a href="Help.html">Help</a></li>
+			</ul>
+		</div>
+		
+		<div id="body">
+		
+			<div id="form">
+				<h3>User Documentation:</h3>
+				<p>
+				The name gets validated properly, however, when you try to load, save, view, or delete a 
+				resume the connection becomes an issue at times. I am not sure why but the WAMP 
+				server also complains frequently about unnecessary errors such as it cant find a certain 
+				variable - which is available out the file (this file has been include at the top!). There 
+				are plenty other casses where the variables are not recognized. 
+				</p>
+				
+				<h3>Technical description:</h3>
+				<p>
+				I was planning on having auto complete switched on for the name box. But the version of 
+				jquery would not allow it. Other than that, lack of time has unabled me to do anything better.
+				However, I did take moderate precautions for security. I have sanitized the inputs before 
+				passing to the query, made sure the names they entered valid. I used regular expression to 
+				validate the names. This allowed me to eleminate any chance or sql injection.
+				</p>
+				
+			</div>			
+		</div>
+	</div>
+	</body>
+</html>
